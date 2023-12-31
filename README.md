@@ -3,6 +3,7 @@ https://nobaraproject.org/download-nobara/
 
 powertools
 https://github.com/hicder/PowerTools/releases
+
 curl -L https://github.com/hicder/PowerTools/releases/download/v2.7/install.sh | sh
 
 HANDYGCCS
@@ -27,6 +28,7 @@ ExecStart=/usr/local/bin/handycon
 [Install]
 WantedBy=multi-user.target
 =============================================
+sudo systemctl enable --now handycon
 
 DECKY LOADER
 
