@@ -3,6 +3,7 @@ https://nobaraproject.org/download-nobara/
 
 powertools
 https://github.com/hicder/PowerTools/releases
+curl -L https://github.com/hicder/PowerTools/releases/download/v2.7/install.sh | sh
 
 HANDYGCCS
 sudo python -m pip install build wheel installer
